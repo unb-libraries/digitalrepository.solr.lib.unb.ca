@@ -1,0 +1,14 @@
+services:
+  hyrax-solr-lib-unb-ca:
+    build:
+      context: .
+    restart: unless-stopped
+    container_name: hyrax-solr-lib-unb-ca
+    expose:
+      - "8983"
+    ports:
+      - "3501:8983"
+    volumes:
+      - solr-data:/var/solr/data/digitalrepository
+volumes:
+  solr-data:
