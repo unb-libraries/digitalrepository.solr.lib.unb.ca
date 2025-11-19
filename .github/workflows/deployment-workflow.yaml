@@ -9,12 +9,12 @@ jobs:
   deploy:
     uses: unb-libraries/dockworker/.github/workflows/build-push-deploy-notify.yaml@6.x
     with:
-      branch-env-map: '{"prod":"8.x"}'
+      branch-env-map: '{"dev":"dev","prod":"prod","8.x":"8.x"}'
       build-themes: false
-      deploy-branches: '["8.x"]'
+      deploy-branches: '["dev","prod"]'
       image-name: "ghcr.io/unb-libraries/digitalrepository.solr.lib.unb.ca"
       k8s-deployment-name: "digitalrepository-solr-lib-unb-ca"
-      push-branches: '["8.x"]'
+      push-branches: '["dev","prod","8.x"]'
     secrets:
       KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_DATA }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
