@@ -47,5 +47,4 @@ dockworker:
       parent: solr:8.11
       repository: GitHub
       push-branches:
-        - dev
-        - prod
+        - 8.x
