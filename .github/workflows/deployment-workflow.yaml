@@ -9,7 +9,7 @@ jobs:
   deploy:
     uses: unb-libraries/dockworker/.github/workflows/build-push-deploy-notify.yaml@6.x
     with:
-      branch-env-map: '{"8.x":"prod"}'
+      branch-env-map: '{"prod":"8.x"}'
       build-themes: false
       deploy-branches: '["8.x"]'
       image-name: "ghcr.io/unb-libraries/digitalrepository.solr.lib.unb.ca"
