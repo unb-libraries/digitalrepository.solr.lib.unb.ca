@@ -9,6 +9,10 @@ RUN /build/scripts/container/setSolrLogLevels.sh ${SOLR_LOG_LEVEL} \
   && mv /build/conf /opt/solr/server/solr/configsets/digitalrepository
 USER $SOLR_UID
 
+# Metadata
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
 LABEL ca.unb.lib.generator="solr" \
   com.microscaling.docker.dockerfile="/Dockerfile" \
   com.microscaling.license="MIT" \

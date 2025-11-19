@@ -1,12 +1,12 @@
-# [drupal.solr.lib.unb.ca](https://drupal.solr.lib.unb.ca/) : Lean Instance Repository
-[![Build Status](https://github.com/unb-libraries/drupal.solr.lib.unb.ca/actions/workflows/deployment-workflow.yaml/badge.svg?branch=prod)](https://github.com/unb-libraries/drupal.solr.lib.unb.ca/actions/workflows/deployment-workflow.yaml)
-[![GitHub license](https://img.shields.io/github/license/unb-libraries/drupal.solr.lib.unb.ca)](https://github.com/unb-libraries/drupal.solr.lib.unb.ca/blob/prod/LICENSE)
-![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/drupal.solr.lib.unb.ca?label=lean%20repo%20size)
+# [digitalrepository.solr.lib.unb.ca](https://digitalrepository.solr.lib.unb.ca/) : Lean Instance Repository
+[![Build Status](https://github.com/unb-libraries/digitalrepository.solr.lib.unb.ca/actions/workflows/deployment-workflow.yaml/badge.svg?branch=prod)](https://github.com/unb-libraries/digitalrepository.solr.lib.unb.ca/actions/workflows/deployment-workflow.yaml)
+[![GitHub license](https://img.shields.io/github/license/unb-libraries/digitalrepository.solr.lib.unb.ca)](https://github.com/unb-libraries/digitalrepository.solr.lib.unb.ca/blob/prod/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/digitalrepository.solr.lib.unb.ca?label=lean%20repo%20size)
 
-This repository contains the assets used to test, build, and deploy the drupal.solr.lib.unb.ca application.
+This repository contains the assets used to test, build, and deploy the digitalrepository.solr.lib.unb.ca application.
 
 ## Deploy this Application Yourself!
-Local deployment, development and testing of drupal.solr.lib.unb.ca is easy, as we leverage [dockworker](https://github.com/unb-libraries/dockworker), our unified framework of [Robo](https://robo.li/) commands that streamline local development of our application on Linux or OSX.
+Local deployment, development and testing of digitalrepository.solr.lib.unb.ca is easy, as we leverage [dockworker](https://github.com/unb-libraries/dockworker), our unified framework of [Robo](https://robo.li/) commands that streamline local development of our application on Linux or OSX.
 
 ### Step 1: Install Dockworker's Dependencies
 In your local development environment, a minimal number of 'one time' dependencies are required to deploy applications with dockworker. Some or all of these may already be installed in your environment; see the list of dependencies and installation instructions [here](https://github.com/unb-libraries/dockworker/blob/4.x/docs/prerequisites.md).
@@ -33,6 +33,6 @@ This application was created at [![UNB Libraries](https://github.com/unb-librari
 
 ## License
 - As part of our 'open' ethos, UNB Libraries licenses its applications and workflows to be freely available to all whenever possible.
-- Consequently, the contents of this repository [unb-libraries/drupal.solr.lib.unb.ca] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
+- Consequently, the contents of this repository [unb-libraries/digitalrepository.solr.lib.unb.ca] are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html). This license explicitly excludes:
    - Any website content, which remains the exclusive property of its author(s).
    - The UNB logo and any of the associated suite of visual identity assets, which remains the exclusive property of the University of New Brunswick.
