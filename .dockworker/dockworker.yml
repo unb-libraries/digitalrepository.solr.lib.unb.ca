@@ -11,7 +11,7 @@ dockworker:
       id: digitalrepository.solr.lib.unb.ca
       slug: digitalrepository-solr-lib-unb-ca
       short_slug: digireposolr
-      uuid: 3501
+      uuid: 3581
     framework:
       name: Solr
       version: 7
